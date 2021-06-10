@@ -1,0 +1,374 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  color: #1c1c1c;
+  width: 100%;
+  border-radius: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+
+.intro-signin .container-fluid .card-signin {
+    background-color: rgba(54,54,54,0.7);
+    border-color: #000000;
+}
+
+.basic-intro, .intro, .intro-signin {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    z-index: 0;
+    background-size: cover;
+    padding-top: 90px;
+}
+
+.intro-signin {
+  min-height: 900px;
+  background-color:transparent;
+  background-size: cover;
+  background-position: center bottom -190px;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+
+.container, .container-fluid {
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-md-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, 
+.col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, 
+.col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, 
+.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, 
+.col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+.col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, 
+.col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.intro-signin .container-fluid .card-signin .card-body {
+    padding: 2.5rem;
+}
+
+.intro-signin .container-fluid .card-signin h5 {
+    color: #c9c9c9;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.intro-signin .container-fluid .card-signin h4 {
+  color: #c9c9c9;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+input {
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 15px 5px 2px;
+    max-width: 40%;
+}
+
+input:focus {
+  border-color: transparent transparent red transparent;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.intro-signin .container-fluid .card-signin button {
+  color: #fff;
+  background-color: #FF4500;
+  border-color: #fff;
+  border-radius: 5px;
+  padding: 9px;
+  cursor: pointer;
+  margin: 0 25px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.mt-5, .my-5 {
+    margin-top: 3rem!important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn {
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+.btn-primary:hover {
+  background-color: #000000!important;
+  border-color: #D3D3D3!important;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    margin-top: 10px;
+    /*font-size: inherit;
+    line-height: inherit;*/
+}
+
+button {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+    font: 400 13.3333px Arial;
+}
+
+.dropdown-toggle>span.caret, .hidden {
+    display: none;
+}
+
+.text-light {
+    color: #f8f9fa!important;
+}
+
+.spinner-border {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: .25em solid;
+    border-right: .25em solid transparent;
+    border-radius: 50%;
+    animation: spinner-border .75s linear infinite;
+}
+
+.h1, .h2, .h3, .h4, .h6, h1, h2, h3, h4, h6 {
+    margin-bottom: .5rem;
+    margin-top: 0;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+h5, .h5 {
+  display: block;
+  margin-block-start: 0.27em;
+  margin-block-end: 0.27em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .95rem;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Calibri,sans-serif;
+  background-color: #000000;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  display: block;
+}
+
+:root {
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --input-padding-x: 0.75rem;
+  --input-padding-y: 0.75rem;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  scroll-behavior: smooth;
+  display: block;
+}
+
+.intro-signin .container-fluid .card-signin .card-body .subtitle {
+    color: #fff;
+}
+
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  font-size: 12px Arial;
+}
+
+.form-label-group > label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+    padding-left: 0;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    line-height: 1.2;
+    color: #fff;
+    cursor: text;
+    transition: all .2s ease-in-out;
+}
+
+.form-label-group label {
+  font-size: 19px;
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+    top: 0;
+    padding-top: 0;
+    padding-bottom: calc(var(--input-padding-y)/3);
+    font-size: 12px;
+    color: #FF4500;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+table {
+  background-color: #f0f0f0;
+  box-shadow: 1px 1px 15px #2F4F4F;
+  text-align: center;
+  border-collapse: collapse;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+thead tr th:first-child {
+  border-top-left-radius: 10px;
+}
+thead tr th:last-child {
+  border-top-right-radius: 10px;
+}
+th {
+  color: #fff;
+  background-color: #1c1c1c;
+  padding: 10px 25px 10px 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+tr,
+td {
+  color: rgb(87, 87, 87);
+  font-weight: 500;
+  padding: 4px;
+}
